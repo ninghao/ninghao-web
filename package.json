@@ -1,0 +1,12 @@
+{
+  "name": "ninghao-web",
+  "version": "1.0.0",
+  "description": "学习 web 技术，html, css，javascript ... ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "browser-sync start --server --no-notify --files='*.html, scripts/*.js, styles/*.css'"
+  },
+  "author": "wanghao <wanghao@ninghao.net>",
+  "license": "MIT"
+}
