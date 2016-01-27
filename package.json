@@ -8,5 +8,8 @@
     "watch": "browser-sync start --server --no-notify --files='*.html, scripts/*.js, styles/*.css'"
   },
   "author": "wanghao <wanghao@ninghao.net>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.11.1"
+  }
 }
