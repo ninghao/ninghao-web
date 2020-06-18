@@ -1,10 +1,12 @@
 .container {
   display: grid;
   height: 100vh;
-  /* grid-template-columns: 200px 200px 200px; */
-  grid-template-columns: 1fr 5fr 1fr;
-  /* grid-template-rows: 200px 200px 200px; */
   grid-auto-rows: 1fr;
+
+  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+  /* grid-template-columns: repeat(9, 1fr); */
+  /* grid-template-columns: repeat(2, 1fr 2fr); */
+  grid-template-columns: 80px repeat(2, 1fr);
 
   /* 间隔 */
   column-gap: 4px;
