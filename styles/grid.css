@@ -3,12 +3,21 @@
   height: 100vh;
   grid-auto-rows: 1fr;
 
-  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
-  /* grid-template-columns: repeat(9, 1fr); */
-  /* grid-template-columns: repeat(2, 1fr 2fr); */
-  grid-template-columns: 80px repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 
   /* 间隔 */
   column-gap: 4px;
   row-gap: 4px;
+}
+
+.item__1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.item__2 {
+  grid-row-start: 3;
+  grid-row-end: 5;
 }
