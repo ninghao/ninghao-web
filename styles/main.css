@@ -1,0 +1,52 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  background: #f8f8f8;
+}
+
+.item {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  padding: 8px;
+}
+
+.item__1 {
+  background: #7f0000;
+}
+
+.item__2 {
+  background: #560027;
+}
+
+.item__3 {
+  background: #4a148c;
+}
+
+.item__4 {
+  background: #311b92;
+}
+
+.item__5 {
+  background: #0d47a1;
+}
+
+.item__6 {
+  background: #33691e;
+}
+
+.item__7 {
+  background: #006064;
+}
+
+.item__8 {
+  background: #f57f17;
+}
+
+.item__9 {
+  background: #e65100;
+}
